@@ -30,4 +30,13 @@ Result: Hello, World!
 
 ---
 
+## How To Develop
+
 All the code is from streem/pbandk's example, just the original example is for kotlin-jvm, and after I retrofit it, it will work for kotlin-native.
+
+This repository is built on gradle with kts and uses 3 submodules, all of which are declared in [settings.gradle.kts](settings.gradle.kts)
+
+### jvm
+
+Used to virtualize a jvm running environment for [google/protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin), and generate all the main code in this module
+

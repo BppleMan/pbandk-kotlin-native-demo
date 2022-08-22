@@ -40,3 +40,10 @@ This repository is built on gradle with kts and uses 3 submodules, all of which 
 
 Used to virtualize a jvm running environment for [google/protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin), and generate all the main code in this module
 
+### generator
+
+Used to provide a Generator instance as a plugin for protoc-gen-pbandk-lib, The Generator will be used to generate Service files
+
+### native
+
+You can write any kotlin-native code here

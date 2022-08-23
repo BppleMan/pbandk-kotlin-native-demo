@@ -14,7 +14,15 @@ Then you can use it with rsocket-kotlin or ktor to serve the network.
 
 ## Useage
 
-Only
+1. Install protoc any way you like
+
+for mac:
+
+```
+brew install protobuf
+```
+
+2. Run it
 
 ```
 git clone https://github.com/BppleMan/pbandk-kotlin-native-demo.git

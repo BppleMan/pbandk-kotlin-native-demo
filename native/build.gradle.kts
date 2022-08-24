@@ -30,6 +30,9 @@ kotlin {
         val nativeMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+                implementation("io.ktor:ktor-server-core:2.1.0")
+                implementation("io.ktor:ktor-server-cio:2.1.0")
+                implementation("io.ktor:ktor-server-websockets:2.1.0")
                 implementation("pro.streem.pbandk:pbandk-runtime:$pbandkVersion")
             }
         }
